@@ -19,9 +19,6 @@ while resposta == "s":
 
     os.system("cls") # Limpa a tela
 
-print("Os nomes cadastrados foram:")
-
-# Percorre a lista de nomes com indexação
 '''
     Poderiamos ter feito a leitura dos nomes da seguinte forma:
     for nome in nomes:
@@ -30,6 +27,8 @@ print("Os nomes cadastrados foram:")
     Mas, como queremos mostrar a posição do nome na lista, utilizamos a função range
 '''
 
+# Percorre a lista de nomes com indexação
+print("Os nomes cadastrados foram:")
 for item in range(len(nomes)): # 
     print(f"{item + 1} - {nomes[item]}")
 
